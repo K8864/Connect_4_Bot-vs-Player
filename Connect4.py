@@ -40,3 +40,4 @@ class Connect4:
                         return 'x' if Connect4.player_bool else 'o'
         return '-'
     
+    
