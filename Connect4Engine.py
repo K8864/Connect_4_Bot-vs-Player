@@ -1,3 +1,10 @@
+"""
+TODO
+Finish the game logic
+Implement a UI for the connect 4 game
+Implement a depth limited minimax algorithm with alpha beta pruning to play against the player
+"""
+
 # A Connect 4 board is 7 columns x 6 grids
 # I'll use a 2d array to represent a board
 class Connect4: 
@@ -39,5 +46,4 @@ class Connect4:
                     if(i < 3 and j > 2 and Connect4.board[i][j] == Connect4.board[i+1][j-1] == Connect4.board[i+2][j-2] == Connect4.board[i+3][j-3]):
                         return 'x' if Connect4.player_bool else 'o'
         return '-'
-    
     
