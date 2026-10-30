@@ -14,6 +14,9 @@ class Connect4:
     def __init__():
         pass
 
+    def get_turn():
+        return Connect4.player_bool
+
     # plays a turn for player, returns the board after the turn if successful, raises ValueError if not
     def playTurn(player, column):
         if(player != Connect4.player_bool):
